@@ -3,7 +3,7 @@ import PitchInput from "./components/PitchInput";
 import ResultPanel from "./components/ResultPanel";
 import HistoryPanel from "./components/HistoryPanel";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API = import.meta.env.VITE_API_URL || "https://startup-pitch-validator.onrender.com/";
 
 export default function App() {
   const [result, setResult] = useState(null);
